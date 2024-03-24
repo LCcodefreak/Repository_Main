@@ -1,4 +1,4 @@
-# GitHUB - Repository_Main - Regras de organização :
+# GitHUB - Regras de organização :
 
 Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso dos projectos no GitHub.
 
@@ -30,8 +30,8 @@ Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello
 # Exemplo:
 git checkout -b TL-100/create-post-api
 
-Exemplo de quando seu GitHub está integrado com o JIRA e usando esse padrão acima:
-Conexão JIRA e GitHub
+Nota - Exemplo de quando seu GitHub está integrado com o JIRA e usando esse padrão acima:
+     - Conexão JIRA e GitHub
 ```
 
 
@@ -52,6 +52,63 @@ Já não é de hoje que a convenção de commits do Angular é extremamente popu
 # Exemplo
 feat(posts): creating hook to integrate with posts API
 test: add missing tests for posts hook
+
+Nota - Vale lembrar que o "escopo" é opcional.
+```
+
+
+#### Passo 3 - Padrão de Título na Pull Request :
+
+Depois que você já subiu sua branch com tudo feito, uma das partes cruciais para se ter uma boa documentação são as pull requests. Quando você executa um "Squash and Merge" dentro do GitHub por exemplo, é o título da sua pull request que fica como commit principal e dentro da mensagem do commit ficam os outros commits. Então um padrão bem interessante é seguir a mesma ideia da convenção, com alguns upgrades:
+
+```bash
+# Padrão:
+[<id-da-sua-tarefa>] tipo(escopo): descriçao
+
+# Exemplo:
+[TL-100] feat(posts): creating hook to integrate with posts API
+```
+
+
+#### Passo 4 - Fazer Uma Boa Descrição na Pull Request :
+
+Eu sei que escrever a parte técnica pode ser muito chato as vezes, mas é parte do trabalho do dia a dia de um dev. Nem sempre faremos só coisas legais. Juntando o título no qual já tem o link para a estória, onde ficam as descrições de regras de negócio, adicionado um breve resumo do escopo no título e mais os detalhes técnicos na descrição seguido de um screenshot da tela (se possível) é um prato cheio para conseguir mitigar problemas e resolve-los rapidamente sem ficar se perdendo no meio do caminho.
+
+Esse é o padrão que adaptei de um outro já existente e tem funcionado bem no meu dia a dia:
+
+```bash
+## Type of change
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Chore (documentation, packages, or tests updates, nothing that affect the final user directly)
+- [ ] Release (new version of the application - only for production)
+
+## Description
+
+...
+
+## Screenshots
+
+...
+
+## Tasks
+
+- [task-id](task-link) or N/A
+
+## Checklist
+
+- [ ] My changes have less than or equal 400 lines
+- [ ] I have performed a self-review of my own code
+- [ ] The existing tests and linter pass locally with my changes
+- [ ] I have commented my code in hard-to-understand areas (if applicable)
+- [ ] I have created tests for my fix or feature (if applicable)
+
+## Dependencies
+
+This pull request has a dependency on the following others:
+
+- link-to-depency PR or N/A
 ```
 
 
