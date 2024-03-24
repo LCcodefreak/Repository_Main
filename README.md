@@ -209,6 +209,53 @@ There are three commands you can use in your Smart Commit messages:
 
 <img width="604" alt="Captura de ecrã 2024-03-24, às 15 42 27" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8f4f371f-86ff-4e3b-bc2d-ff2c614f333c">
 
+
+### View development information on your Jira issues
+
+To view linked development information in a Jira issue :
+
+1. Navigate to the issue.
+2. Under Development, select the number of pull requests, branches, or commits to see additional information.
+
+
+### Advanced examples
+
+#### Multiple commands on a single issue
+
+<img width="752" alt="Captura de ecrã 2024-03-24, às 15 46 53" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/aaa9a40b-b71f-48f3-89e2-6a952580ca83">
+
+#### Multiple commands over multiple lines on a single issue
+
+<img width="751" alt="Captura de ecrã 2024-03-24, às 15 47 05" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/f292a763-5b5d-4a85-9723-41f47e1afde9">
+
+#### A single command on multiple issues
+
+<img width="751" alt="Captura de ecrã 2024-03-24, às 15 47 14" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/74208db8-8139-45a4-b805-d56a09f1bcd8">
+
+#### Multiple commands on multiple issues
+
+<img width="752" alt="Captura de ecrã 2024-03-24, às 15 48 26" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/4d55addb-4edb-4954-bfa9-de2323a3e64e">
+
+### Get Smart Commits working
+It's easy to get Smart Commits working for your instance of Jira Software:
+
+<img width="754" alt="Captura de ecrã 2024-03-24, às 15 49 10" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/9211be1c-19a5-4df2-8f3b-c8382819d084">
+
+#### Notes:
+
+- Smart Commits only support the default Jira Software issue key format. This format is two or more uppercase letters,         followed by a hyphen and the issue number, for example JRA-123. 
+
+- A DVCS such as Git includes a user's email address in the commit data. Users configure this email address in their local system. Smart Commits requires that this email address match exactly one email address in the Jira Software user base. If the email address matches to multiple users in Jira Software, or the user does not have permissions for the requested action, the Smart Commit action will fail. The commit itself will succeed however, and will show on the issue. Mismatched email addresses is a common reason why Smart Commits fail to work as expected. If a Smart Commit fails, Jira Software sends an email notification to either the Jira Software user, or to the DVCS user (if a Jira Software user can't be identified). In rare cases, Jira Software doesn't have either of these email addresses, and the Smart Commit fails silently.
+
+- Smart commit commands that you execute will appear duplicated under certain circumstances. Altering commit history creates "new" commits, which replace the "old" ones. If those "new" commits contain the same smart commit commands as before the history rewrite, then the same smart commits will be executed again and hence appear to have been duplicated. The commit history altering git commands include git push --force and git merge --squash.
+
+- Earlier Bitbucket was not sending the merge commit flag to Jira during event delivery. So ‘Smart commits’ was treating all commits as regular commits. Now, CommitEvent send to EventDelivery contains COMMIT_MERGED flag. Hence, use the below default merge commit format:
+
+<img width="753" alt="Captura de ecrã 2024-03-24, às 15 50 36" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/4faffa87-055f-41b2-b2f1-a9cc1a1fe692">
+
+
+It is recommended not to add the smart commit commands to the PR title that gets added to the merge commit message after merge. Instead, manually edit the merge commit message to get the smart commits working again.
+
 _______________________________________________________________________________________________________________________________
 
 ## 03. Comandos principais do Git :
