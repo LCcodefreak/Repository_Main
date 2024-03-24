@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 #### Passo 1 - Nome da Branch :
 
-Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello, Asana ou qualquer outro. O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
+Normalmente usamos algum provedor de gerenciamento de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
 
 ```bash
  Padrão:
