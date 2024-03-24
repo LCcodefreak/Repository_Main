@@ -79,6 +79,10 @@ Nota - Vale lembrar que o "escopo" é opcional.
 <img width="910" alt="Captura de ecrã 2024-03-24, às 17 54 34" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8c4cec08-3ad6-42c2-8e6a-1dc083774d48">
 <img width="921" alt="Captura de ecrã 2024-03-24, às 17 52 08" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/9ad49d40-f73c-43a5-90d5-ccf9a8b64400">
 
+##### Short Summary :
+
+<img width="911" alt="Captura de ecrã 2024-03-24, às 17 59 14" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/cafadf8f-7e85-474b-9e1e-8d7d124b63c1">
+
 #### Passo 3 - Padrão de Título na Pull Request :
 
 Depois que você já subiu sua branch com tudo feito, uma das partes cruciais para se ter uma boa documentação são as pull requests. Quando você executa um "Squash and Merge" dentro do GitHub por exemplo, é o título da sua pull request que fica como commit principal e dentro da mensagem do commit ficam os outros commits. Então um padrão bem interessante é seguir a mesma ideia da convenção, com alguns upgrades:
