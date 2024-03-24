@@ -1,6 +1,7 @@
-# Repository_Main - Regras de organização do GitHub
+# GitHUB - Repository_Main - Regras de organização :
 
-Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso de um projecto no GitHub.
+Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso dos projectos no GitHub.
+
 
 INDICE :
 
