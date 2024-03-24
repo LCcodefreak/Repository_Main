@@ -1,8 +1,3 @@
-# Atlassina Account 
-lc.codefreak@gmail.com
-
-
-
 # GitHUB - Regras de organização :
 
 Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso dos projectos no GitHub.
