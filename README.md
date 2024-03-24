@@ -179,8 +179,7 @@ Veja Usando Smart Commits na documentação do "Crucible".
 
 Um comando "Smart Commit" não deve abranger mais de uma linha (ou seja, não pode usar retornos de carruagem no comando), mas pode adicionar vários comandos à mesma linha. Veja este exemplo abaixo.
 
-
-
+###
 ### Smart Commit commands:
 
 The basic syntax for a Smart Commit message is:
