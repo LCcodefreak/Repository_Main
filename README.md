@@ -5,16 +5,15 @@ Neste ficheiro eu vou apresentar as regras de organização que vou utilizar par
 
 INDICE :
 
-01.Estas regras são baseadas nos princípios definidos pelo Gustavo Sales :
+01. Regras são baseadas nos princípios definidos pelo Gustavo Sales :
 
 - LINK : https://github.com/guscsales
 - LINK : https://www.youtube.com/watch?v=oVnenyWTndY
 - LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
-02. Atlassina "smart commits" policy ;
+02. Regras Atlassina "smart commits" policy ;
 
-03.Comandos principais do Git ;
-
+03. Comandos principais do Git ;
 _______________________________________________________________________________________________________________________________
 
 ## Atlassina Account :
