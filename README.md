@@ -33,6 +33,14 @@ ________________________________________________________________________________
 ### Organizar Suas Branches, Commits e Pull Requests
 
 
+#### Passo 0 - Como definir a Arquitectura interior :
+
+- Haverá sempre uma "Main branch" que ficará associada ao código final ( o resultado de várias experiências ao longo do tempo ) ;
+- Haverá sempre uma "Working branch" que ficará associada ao desenvolvimento de um Projecto ( e que será o resultado de "merges" de várias "Features" de trabalho ) ;
+- Haverão depois várias "Feature branches" que resultarão de aperfeiçoamentos de código ou do seu desenvolvimento ;
+
+<img width="1309" alt="Captura de ecrã 2024-03-24, às 18 19 36" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/b6950c2b-0cbe-4b6c-8d27-00a6f26a7688">
+
 #### Passo 1 - Nome da Branch :
 
 Normalmente usamos algum programa de gestão de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja ligado aquela tarefa, no caso do "JIRA" ele sempre cria um sufixo seguido de um número. Existem integrações entre o "GitHub" e o "JIRA" por exemplo então fica tudo conectado quando se cria uma "Branch" num estilo mais ou menos assim:
