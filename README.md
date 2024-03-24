@@ -9,6 +9,7 @@ INDICE :
 - LINK : https://github.com/guscsales
 - LINK : https://www.youtube.com/watch?v=oVnenyWTndY
 - LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
+- LINK : https://gist.github.com/brianclements/841ea7bffdb01346392c
 
 02. Regras de organização baseadas na "Atlassina 'smart commits' policy" ;
 
@@ -56,6 +57,22 @@ Nota - Exemplo de quando seu GitHub está integrado com o JIRA e usando esse pad
      - Conexão JIRA e GitHub
 ```
 
+A numeração associada ao <id-da-sua-tarefa> deverá conter uma lógica de progresso, assim :
+
+##### Nomenclatura :
+
+- Deverá existir um código de Projecto > TK
+- Deverá existir um "Main branch" > TKMAIN
+- Deverá existir um "Working branch" > TKWORK
+- Deverá existir um "Feature branch" > TKFEATURE
+
+##### Progresso :
+
+- "Main branch" define o percurso > TKMAIN-0
+- "Working branch" define o desenvolvimento > TKWORK-00
+- "Feature branch" define a etapa > TKFEATURE-001 / TKFEATURE-002 / TKFEATURE-003
+
+<img width="1275" alt="Captura de ecrã 2024-03-24, às 18 28 33" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/fdc4d25c-5560-49b4-a35f-f9711458a001">
 
 #### Passo 2 - Utilizar Padrões de Commit :
 
