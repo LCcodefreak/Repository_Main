@@ -17,19 +17,6 @@ INDICE :
 03. Regras de organização baseadas nos comandos principais do Git ;
 _______________________________________________________________________________________________________________________________
 
-## Atlassina Account :
-
-- Atlassina :
-https://id.atlassian.com/login?continue=https%3A%2F%2Fadmin.atlassian.com%2F%3Fare%3Daid
-
-- Jira : https://lccodefreak.atlassian.net/jira/your-work
-
-- account : https://lccodefreak.atlassian.net
-  
-- emaill : lc.codefreak@gmail.com
-  
-_______________________________________________________________________________________________________________________________
-
 ## 01. Regras principais para organizar o GitHub :
 ### Organizar Branches, Commits e Pull Requests
 
@@ -57,20 +44,21 @@ Nota - Exemplo de quando seu GitHub está integrado com o JIRA e usando esse pad
      - Conexão JIRA e GitHub
 ```
 
-A numeração associada ao <id-da-sua-tarefa> deverá conter uma lógica de progresso, assim :
+A numeração associada ao "id-da-sua-tarefa" deverá conter uma lógica de progresso, assim :
 
-##### Nomenclatura :
+#### Nomenclatura :
 
-- Deverá existir um código de Projecto > TK
-- Deverá existir um "Main branch" > TKMAIN
-- Deverá existir um "Working branch" > TKWORK
-- Deverá existir um "Feature branch" > TKFEATURE
+- Deverá existir um código de Projecto > TK ( TokioSchool )
+- Deverá existir um "Main branch" > TKMAIN ( TokioSchool main branch )
+- Deverá existir um "Working branch" > TKWORK ( TokioSchool working branch )
+- Deverá existir um "Feature branch" > TKFEATURE ( TokioSchool feature branch )
 
-##### Progresso :
+#### Progresso :
 
-- "Main branch" define o percurso > TKMAIN-0
-- "Working branch" define o desenvolvimento > TKWORK-00
-- "Feature branch" define a etapa > TKFEATURE-001 / TKFEATURE-002 / TKFEATURE-003
+- "Main branch" define o percurso > TKMAIN-0 / TKMAIN-1 TKMAIN-2
+- "Working branch" define o desenvolvimento dentro do Main branch > TKWORK-00 / TKWORK-10 / TKWORK-20
+- "Alternative Working branch" define um desenvolvimento alternativo e experimental > TKWORK-01 / TKWORK-11 / TKWORK-21
+- "Feature branch" define a etapa dentro do Working branch> TKFEATURE-001 / TKFEATURE-102 / TKFEATURE-203
 
 <img width="1275" alt="Captura de ecrã 2024-03-24, às 18 28 33" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/fdc4d25c-5560-49b4-a35f-f9711458a001">
 
