@@ -51,7 +51,7 @@ Nota - Exemplo de quando seu GitHub está integrado com o JIRA e usando esse pad
 
 #### Passo 2 - Utilizar Padrões de Commit :
 
-Convenção de commits do  [AngularJS commit message format][commit-message-format] é extremamente popular. E sim, ela ajuda a organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: "tipo(scope):descriçao sumária ". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
+Convenção de commits do  [AngularJS commit message format][commit-message-format] é extremamente popular. E sim, ela ajuda a organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: " type(scope) : descriçao sumária ". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
 
 <img width="930" alt="Captura de ecrã 2024-03-24, às 17 51 36" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/bb67628b-a840-4b64-a830-75041be55af0">
 
@@ -76,8 +76,8 @@ Nota - Vale lembrar que o "escopo" é opcional.
 
 ##### Scope:
 
-<img width="913" alt="Captura de ecrã 2024-03-24, às 17 51 58" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8066a3ac-f7cf-4bc5-bd25-1bcc4655fb53">
-
+<img width="910" alt="Captura de ecrã 2024-03-24, às 17 54 34" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8c4cec08-3ad6-42c2-8e6a-1dc083774d48">
+<img width="921" alt="Captura de ecrã 2024-03-24, às 17 52 08" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/9ad49d40-f73c-43a5-90d5-ccf9a8b64400">
 
 #### Passo 3 - Padrão de Título na Pull Request :
 
