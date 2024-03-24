@@ -1,5 +1,5 @@
 # GitHUB
-# Regras de organização :
+## Regras de organização :
 
 Neste ficheiro eu vou apresentar as regras de organização que devemos utilizar para poder controlar o percurso dos projectos no GitHub.
 
@@ -21,7 +21,7 @@ ________________________________________________________________________________
 ### Organizar Branches, Commits e Pull Requests
 
 
-#### Passo 0 - Como definir a Arquitectura interior :
+### 0 - Como definir a Arquitectura interior :
 
 - Haverá sempre uma "Main branch" que ficará associada ao código final ( o resultado de várias experiências ao longo do tempo ) ;
 - Haverá sempre uma "Working branch" que ficará associada ao desenvolvimento de um Projecto ( e que será o resultado de "merges" de várias "Features" de trabalho ) ;
@@ -29,9 +29,9 @@ ________________________________________________________________________________
 
 <img width="1309" alt="Captura de ecrã 2024-03-24, às 18 19 36" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/b6950c2b-0cbe-4b6c-8d27-00a6f26a7688">
 
-#### Passo 1 - Nome da Branch :
+### 1 - Nome da Branch :
 
-Normalmente usamos algum programa de gestão de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja ligado aquela tarefa, no caso do "JIRA" ele sempre cria um sufixo seguido de um número. Existem integrações entre o "GitHub" e o "JIRA" por exemplo então fica tudo conectado quando se cria uma "Branch" num estilo mais ou menos assim:
+Normalmente utilizamos um programa de gestão de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja ligado aquela tarefa, no caso do "JIRA" ele sempre cria um sufixo seguido de um número. Existem integrações entre o "GitHub" e o "JIRA" por exemplo então fica tudo conectado quando se cria uma "Branch" num estilo mais ou menos assim:
 
 ```bash
  Padrão:
@@ -62,7 +62,7 @@ A numeração associada ao "id-da-sua-tarefa" deverá conter uma lógica de prog
 
 <img width="1275" alt="Captura de ecrã 2024-03-24, às 18 28 33" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/fdc4d25c-5560-49b4-a35f-f9711458a001">
 
-#### Passo 2 - Utilizar Padrões de Commit :
+### 2 - Utilizar Padrões de Commit :
 
 Convenção de commits do  [AngularJS commit message format][commit-message-format] é extremamente popular. E sim, ela ajuda a organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: " type(scope) : descriçao sumária ". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
 
@@ -96,7 +96,7 @@ Nota - Vale lembrar que o "escopo" é opcional.
 
 <img width="911" alt="Captura de ecrã 2024-03-24, às 17 59 14" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/cafadf8f-7e85-474b-9e1e-8d7d124b63c1">
 
-#### Passo 3 - Padrão de Título na Pull Request :
+### 3 - Padrão de Título na Pull Request :
 
 Depois que você já subiu sua branch com tudo feito, uma das partes cruciais para se ter uma boa documentação são as pull requests. Quando você executa um "Squash and Merge" dentro do GitHub por exemplo, é o título da sua pull request que fica como commit principal e dentro da mensagem do commit ficam os outros commits. Então um padrão bem interessante é seguir a mesma ideia da convenção, com alguns upgrades:
 
@@ -109,7 +109,7 @@ Depois que você já subiu sua branch com tudo feito, uma das partes cruciais pa
 ```
 
 
-#### Passo 4 - Fazer Uma Boa Descrição na Pull Request :
+### 4 - Fazer Uma Boa Descrição na Pull Request :
 
 Eu sei que escrever a parte técnica pode ser muito chato as vezes, mas é parte do trabalho do dia a dia de um dev. Nem sempre faremos só coisas legais. Juntando o título no qual já tem o link para a estória, onde ficam as descrições de regras de negócio, adicionado um breve resumo do escopo no título e mais os detalhes técnicos na descrição seguido de um screenshot da tela (se possível) é um prato cheio para conseguir mitigar problemas e resolve-los rapidamente sem ficar se perdendo no meio do caminho.
 
