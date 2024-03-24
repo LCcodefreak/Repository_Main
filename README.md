@@ -1,3 +1,8 @@
+# Atlassina Account 
+lc.codefreak@gmail.com
+
+
+
 # GitHUB - Regras de organização :
 
 Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso dos projectos no GitHub.
@@ -12,6 +17,19 @@ INDICE :
 - LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
 02.Comandos principais do Git :
+
+_______________________________________________________________________________________________________________________________
+
+## Atlassina Account :
+
+login :
+https://id.atlassian.com/login?continue=https%3A%2F%2Fadmin.atlassian.com%2F%3Fare%3Daid
+
+account - https://lccodefreak.atlassian.net
+emaill - lc.codefreak@gmail.com
+
+Jira - https://lccodefreak.atlassian.net/jira/your-work
+
 _______________________________________________________________________________________________________________________________
 
 ## 01. Regras principais para organizar o GitHub :
