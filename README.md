@@ -7,6 +7,7 @@ INDICE :
 01.Ponto
 Estas regras são baseadas nos principios definidos pelo Gustavo Sales e procuram 
 LINK : [https://www.thonlabs.io/](https://github.com/guscsales)https://github.com/guscsales
+LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
 02.Ponto
 Comandos principais do Git :
@@ -16,6 +17,7 @@ ________________________________________________________________________________
 # 01. Regras principais para organizar o GitHub :
 
 ## Organizar Suas Branches, Commits e Pull Requests
+
 
 ### Passo 1 - Nome da Branch :
 
@@ -27,7 +29,31 @@ Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello
 
 # Exemplo:
 git checkout -b TL-100/create-post-api
+
+Exemplo de quando seu GitHub está integrado com o JIRA e usando esse padrão acima:
+Conexão JIRA e GitHub
 ```
+
+
+### Passo 2 - Utilizar Padrões de Commit :
+
+Já não é de hoje que a convenção de commits do Angular é extremamente popular. E sim, ela ajuda demais à organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: "tipo(escopo): descriçao". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
+
+- feat: Um novo recurso para a aplicação, e não precisa ser algo grande, mas apenas algo que não existia antes e que a pessoa    final irá acessar.
+- fix: Correções de bugs
+- docs: Alterações em arquivos relacionados à documentações
+- style: Alterações de estilização, formatação etc
+- refactor: Um codigo de refatoração, ou seja, que foi alterado, que tem uma mudança transparente para o usuário final, porém    uma mudança real para a aplicação
+- perf: Alterações relacionadas à performance
+- test: Criação ou modificação de testes
+- chore: Alterações em arquivos de configuração, build, distribuição, CI, ou qualquer outra coisa que não envolva diretamente    o código da aplicação para o usuário final
+
+```bash
+# Exemplo
+feat(posts): creating hook to integrate with posts API
+test: add missing tests for posts hook
+```
+
 
 _______________________________________________________________________________________________________________________________
 
