@@ -5,9 +5,10 @@ Neste ficheiro eu vou apresentar as regras de organização que vou utilizar par
 INDICE :
 
 01.Ponto
-Estas regras são baseadas nos principios definidos pelo Gustavo Sales e procuram 
-LINK : [https://www.thonlabs.io/](https://github.com/guscsales)https://github.com/guscsales
-LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
+Estas regras são baseadas nos princípios definidos pelo Gustavo Sales :
+
+- LINK : [https://www.thonlabs.io/](https://github.com/guscsales)https://github.com/guscsales
+- LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
 02.Ponto
 Comandos principais do Git :
