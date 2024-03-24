@@ -58,7 +58,7 @@ A numeração associada ao "id-da-sua-tarefa" deverá conter uma lógica de prog
 - "Main branch" define o percurso, cada main tem um número diferente inteiro > TKMAIN-0 / TKMAIN-1 / TKMAIN-2 
 - "Working branch" define o desenvolvimento dentro do Main branch > TKWORK-00 (main 0 work 0) / TKWORK-10 (main 1 work 0)/ TKWORK-20 (main 2 work 0)
 - "Alternative Working branch" define um percusro experimental dentro do Main branch > TKWORK-01 (main 0 work 1) / TKWORK-11 (main 1 work 1) / TKWORK-21 (main 2 work 1) 
-- "Feature branch" define a etapa dentro do Working branch> TKFEATURE-000 (main 0 work 0 feature 0) / TKFEATURE-101  (main 1 work 0 feature 1) 
+- "Feature branch" define a etapa dentro do Working branch> TKFEATURE-000 (main 0 work 0 feature 0) / TKFEATURE-101  (main 1 work 0 feature 1) / TKFEATURE-202  (main 2 work 0 feature 2) 
 
 <img width="1275" alt="Captura de ecrã 2024-03-24, às 18 28 33" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/fdc4d25c-5560-49b4-a35f-f9711458a001">
 
