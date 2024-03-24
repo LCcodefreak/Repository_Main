@@ -166,7 +166,7 @@ ________________________________________________________________________________
 
 ## 02. Atlassina "smart commits" policy 
 
-Quando gere os repositórios do seu projeto no Bitbucket ou no GitHub, ou utiliza o Fisheye para navegar e pesquisar os seus repositórios, pode processar os problemas do Jira Software utilizando comandos especiais, denominados "Smart Commits", nas suas mensagens de confirmação.
+Quando gere os repositórios do seu projeto no "Bitbucket" ou no "GitHub", ou utiliza o "Fisheye" para navegar e pesquisar os seus repositórios, pode processar os problemas do "Jira Software" utilizando comandos especiais, denominados "Smart Commits", nas suas mensagens de confirmação.
 
 É possível:
 
@@ -179,7 +179,7 @@ Veja Usando Smart Commits na documentação do "Crucible".
 
 Um comando "Smart Commit" não deve abranger mais de uma linha (ou seja, não pode usar retornos de carruagem no comando), mas pode adicionar vários comandos à mesma linha. Veja este exemplo abaixo.
 
-###
+_______________________________________________________________________________________________________________________________
 ### Smart Commit commands:
 
 The basic syntax for a Smart Commit message is:
@@ -203,7 +203,11 @@ There are three commands you can use in your Smart Commit messages:
 
 ### Time  :
 
+<img width="752" alt="Captura de ecrã 2024-03-24, às 15 42 06" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/dc84549a-6536-45aa-a818-97c23c4bf0b8">
 
+### Workflow transitions :
+
+<img width="604" alt="Captura de ecrã 2024-03-24, às 15 42 27" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8f4f371f-86ff-4e3b-bc2d-ff2c614f333c">
 
 _______________________________________________________________________________________________________________________________
 
