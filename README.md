@@ -1,7 +1,6 @@
 # GitHUB - Regras de organização :
 
-Neste ficheiro eu vou apresentar as regras de organização que vou utilizar para poder controlar o percurso dos projectos no GitHub.
-
+Neste ficheiro eu vou apresentar as regras de organização que devemos utilizar para poder controlar o percurso dos projectos no GitHub.
 
 INDICE :
 
@@ -26,8 +25,6 @@ https://id.atlassian.com/login?continue=https%3A%2F%2Fadmin.atlassian.com%2F%3Fa
 - account : https://lccodefreak.atlassian.net
   
 - emaill : lc.codefreak@gmail.com
-
-- password :Lmprsc.pessoal2022
   
 _______________________________________________________________________________________________________________________________
 
@@ -38,7 +35,7 @@ ________________________________________________________________________________
 
 #### Passo 1 - Nome da Branch :
 
-Normalmente usamos algum provedor de gerenciamento de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
+Normalmente usamos algum programa de gestão de tarefas, como o "JIRA" (também pode ser o "Trello" ou o "Asana"). O ponto é: provavelmente você vai ter algum tipo de identificador que esteja ligado aquela tarefa, no caso do "JIRA" ele sempre cria um sufixo seguido de um número. Existem integrações entre o "GitHub" e o "JIRA" por exemplo então fica tudo conectado quando se cria uma "Branch" num estilo mais ou menos assim:
 
 ```bash
  Padrão:
@@ -54,7 +51,11 @@ Nota - Exemplo de quando seu GitHub está integrado com o JIRA e usando esse pad
 
 #### Passo 2 - Utilizar Padrões de Commit :
 
-Já não é de hoje que a convenção de commits do Angular é extremamente popular. E sim, ela ajuda demais à organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: "tipo(escopo): descriçao". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
+Convenção de commits do  [AngularJS commit message format][commit-message-format] é extremamente popular. E sim, ela ajuda a organizar os nossos commits, simplesmente porque conseguimos dividir em algo como: "tipo(scope):descriçao sumária ". Nessa ideia temos os mais famosos tipos de commits que são os seguintes:
+
+<img width="930" alt="Captura de ecrã 2024-03-24, às 17 51 36" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/bb67628b-a840-4b64-a830-75041be55af0">
+
+##### Tipo:
 
 - feat: Um novo recurso para a aplicação, e não precisa ser algo grande, mas apenas algo que não existia antes e que a pessoa    final irá acessar.
 - fix: Correções de bugs
@@ -72,6 +73,10 @@ test: add missing tests for posts hook
 
 Nota - Vale lembrar que o "escopo" é opcional.
 ```
+
+##### Scope:
+
+<img width="913" alt="Captura de ecrã 2024-03-24, às 17 51 58" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/8066a3ac-f7cf-4bc5-bd25-1bcc4655fb53">
 
 
 #### Passo 3 - Padrão de Título na Pull Request :
