@@ -1,4 +1,5 @@
-# GitHUB - Regras de organização :
+# GitHUB
+# Regras de organização :
 
 Neste ficheiro eu vou apresentar as regras de organização que devemos utilizar para poder controlar o percurso dos projectos no GitHub.
 
