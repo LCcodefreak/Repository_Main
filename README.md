@@ -166,6 +166,29 @@ ________________________________________________________________________________
 
 ## 02. Atlassina "smart commits" policy 
 
+### Ligar o GitHub ao Jira
+
+Conecte facilmente uma ou mais organizações do GitHub ao seu site do Jira e selecione repositórios específicos para reunir o seu trabalho. Use a sintaxe do "Smart Commits" para conectar o GitHub e o Jira :
+
+#### Contexto automático nos seus problemas do Jira 
+
+Obtenha atualizações e links sobre o que está acontecendo com seus repositórios nos problemas do Jira para coisas como:
+
+- Pull Requests
+- Commits
+- Branches
+
+#### Realizar acções em problemas do Jira
+
+Utilize comandos específicos na sua mensagem de confirmação para realizar acções no Jira, por exemplo:
+
+- Close an issue
+- Add a comment
+- Update time tracking information
+- Transition workflow state
+
+_______________________________________________________________________________________________________________________________
+
 Quando gere os repositórios do seu projeto no "Bitbucket" ou no "GitHub", ou utiliza o "Fisheye" para navegar e pesquisar os seus repositórios, pode processar os problemas do "Jira Software" utilizando comandos especiais, denominados "Smart Commits", nas suas mensagens de confirmação.
 
 É possível:
