@@ -31,8 +31,7 @@ https://id.atlassian.com/login?continue=https%3A%2F%2Fadmin.atlassian.com%2F%3Fa
 _______________________________________________________________________________________________________________________________
 
 ## 01. Regras principais para organizar o GitHub :
-
-### Organizar Suas Branches, Commits e Pull Requests
+### Organizar Branches, Commits e Pull Requests
 
 
 #### Passo 0 - Como definir a Arquitectura interior :
