@@ -4,15 +4,30 @@ Neste ficheiro eu vou apresentar as regras de organização que vou utilizar par
 
 INDICE :
 
-01.
+01.Ponto
 Estas regras são baseadas nos principios definidos pelo Gustavo Sales e procuram 
 LINK : [https://www.thonlabs.io/](https://github.com/guscsales)https://github.com/guscsales
 
-02.
+02.Ponto
 Comandos principais do Git :
 
+_______________________________________________________________________________________________________________________________
 
+# 01. Regras principais para organizar o GitHub :
 
+## Organizar Suas Branches, Commits e Pull Requests
+
+### Passo 1 - Nome da Branch :
+
+Normalmente usamos algum provedor de gerenciamento de tarefas, seja JIRA, Trello, Asana ou qualquer outro. O ponto é: provavelmente você vai ter algum tipo de identificador que esteja atrelado à aquela tarefa, no caso do JIRA ele sempre cria um sufixo seguido de um número. Um ponto legal é que existem integrações entre o GitHub e o JIRA por exemplo (e também entre outras aplicações) então fica tudo conectado quando se cria uma branch num estilo mais ou menos assim:
+
+```bash
+ Padrão:
+<id-da-sua-tarefa>/<super-resumo-da-feature>
+
+# Exemplo:
+git checkout -b TL-100/create-post-api
+```
 
 _______________________________________________________________________________________________________________________________
 
