@@ -7,20 +7,11 @@ INDICE :
 
 01.Estas regras são baseadas nos princípios definidos pelo Gustavo Sales :
 
-- LINK : [https://www.thonlabs.io/](https://github.com/guscsales)https://github.com/guscsales
+- LINK : https://github.com/guscsales
+- LINK : https://www.youtube.com/watch?v=oVnenyWTndY
 - LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
 02.Comandos principais do Git :
-
-
-
-
-
-
-
-
-
-
 _______________________________________________________________________________________________________________________________
 
 ## 01. Regras principais para organizar o GitHub :
@@ -120,13 +111,32 @@ This pull request has a dependency on the following others:
 - link-to-depency PR or N/A
 ```
 
+Explicando:
+
+- Item 1: Tipo da alteração, se é bug fix, feature, chore ou uma release (para o caso de fazer releases com alguma branch que    não é a "main")
+- Item 2: Descrição com mais detalhes, principalmente se esse recurso altera pontos fundamentais do sistema. Pontos esses que    nós precisaremos lembrar no futuro, uma vez que não podemos confiar em nossas memórias
+- Item 3: Se for possível e fizer sentido, capturas de telas que explicam melhor o recurso
+- Item 4: Os links para as tarefas na aplicação que gerencia as estórias e tarefas
+- Item 5: Checklist básico para subir uma PR:
+     - Menos de 400 linhas ;
+     - Revisão no próprio código antes de abrir PR ;
+     - Todos os testes existentes passaram ;
+     - Comentários em lugares necessários foram escritos ;
+     - Criação de testes para o novo recurso ;
+ - Item 6: Outras pull requests que são dependentes, por exemplo: alguma pull request com uma API do backend que é necessária     estar entregue antes de subir uma tela no frontend.
+
+   
+Lembrando que para adicionar padrões de template na pull request você pode utilizar essa forma: criar uma pasta .github na raiz do seu projeto e dentro um arquivo chamado ```bash pull_request_template.md ``` com o template acima. Automaticamente o GitHub vai entender isso e abrir as pull requests com esse template.
 
 
+#### Dicas - Assignees, Labels e Multiplos Commits :
 
+Em uma pull request procure preencher outros dois campos (exemplos usando o GitHub):
 
-
-
-
+- "Assignees": as pessoas que trabalharam naquele recurso, porque em caso de problemas, é fácil achar quem tem mais contexto     no time.
+- "Labels": uma ou mais labels que fazem sentido para aquele recurso (eu gosto de bastante informação, pra mim quanto mais       melhor)
+  
+Por último crie multiplos commits para suas alterações, procure não alterar uma feature inteira e jogar um número enorme de arquivos (salvo exceções) em um único commit, assim fica mais fácil também de entender o que rolou no processo de desenvolvimento daquele recurso.
 
 _______________________________________________________________________________________________________________________________
 
