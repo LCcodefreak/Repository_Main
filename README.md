@@ -16,20 +16,25 @@ INDICE :
 - LINK : https://www.youtube.com/watch?v=oVnenyWTndY
 - LINK : https://www.tabnews.com.br/guscsales/uma-maneira-de-organizar-suas-branches-commits-e-pull-requests
 
-02.Comandos principais do Git :
+02. Atlassina "smart commits" policy ;
+
+03.Comandos principais do Git ;
 
 _______________________________________________________________________________________________________________________________
 
 ## Atlassina Account :
 
-login :
+- Atlassina :
 https://id.atlassian.com/login?continue=https%3A%2F%2Fadmin.atlassian.com%2F%3Fare%3Daid
 
-account - https://lccodefreak.atlassian.net
-emaill - lc.codefreak@gmail.com
+- Jira : https://lccodefreak.atlassian.net/jira/your-work
 
-Jira - https://lccodefreak.atlassian.net/jira/your-work
+- account : https://lccodefreak.atlassian.net
+  
+- emaill : lc.codefreak@gmail.com
 
+- password :Lmprsc.pessoal2022
+  
 _______________________________________________________________________________________________________________________________
 
 ## 01. Regras principais para organizar o GitHub :
@@ -156,9 +161,53 @@ Em uma pull request procure preencher outros dois campos (exemplos usando o GitH
   
 Por último crie multiplos commits para suas alterações, procure não alterar uma feature inteira e jogar um número enorme de arquivos (salvo exceções) em um único commit, assim fica mais fácil também de entender o que rolou no processo de desenvolvimento daquele recurso.
 
+
 _______________________________________________________________________________________________________________________________
 
-## 02. Comandos principais do Git :
+## 02. Atlassina "smart commits" policy 
+
+Quando gere os repositórios do seu projeto no Bitbucket ou no GitHub, ou utiliza o Fisheye para navegar e pesquisar os seus repositórios, pode processar os problemas do Jira Software utilizando comandos especiais, denominados "Smart Commits", nas suas mensagens de confirmação.
+
+É possível:
+
+- comentar problemas
+- registar informações de controlo do tempo em relação a questões
+- fazer a transição de problemas para qualquer estado definido no fluxo de trabalho do projeto Jira Software.
+
+Há outras ações disponíveis se você usar o "Crucible" para revisões de software. 
+Veja Usando Smart Commits na documentação do "Crucible".
+
+Um comando "Smart Commit" não deve abranger mais de uma linha (ou seja, não pode usar retornos de carruagem no comando), mas pode adicionar vários comandos à mesma linha. Veja este exemplo abaixo.
+
+
+### Smart Commit commands:
+
+The basic syntax for a Smart Commit message is:
+
+```bash <ignored text> <ISSUE_KEY> <ignored text> #<COMMAND> <optional COMMAND_ARGUMENTS>```
+
+Any text between the issue key and the command is ignored.
+
+There are three commands you can use in your Smart Commit messages:
+
+```bash
+- comment
+- time
+- transition
+```
+
+### Comment :
+
+<img width="754" alt="Captura de ecrã 2024-03-24, às 15 36 41" src="https://github.com/LCcodefreak/Repository_Main/assets/164329443/5dc11f19-1cc5-4789-a2d7-bf0aa5ea7684">
+
+
+### Time  :
+
+
+
+_______________________________________________________________________________________________________________________________
+
+## 03. Comandos principais do Git :
 
 ### git clone
 
